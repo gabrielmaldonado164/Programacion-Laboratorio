@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1586223374 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase3\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1586223534 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase3\ejercicio1.c
+	<stdio.h>
+	<stdlib.h>
+
