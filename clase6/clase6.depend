@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1586909955 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase6\funcionarray.c
+
+1586909988 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase6\main.c
+	<stdio.h>
+	"funcionArray.h"
+
+1586909953 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase6\funcionarray.h
+
