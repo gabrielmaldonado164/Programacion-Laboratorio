@@ -134,6 +134,8 @@ int main()
              printf("\n valor del array %d ",arrayEdades[i]);
         }
     }
+
+
     return 0;
 }
 

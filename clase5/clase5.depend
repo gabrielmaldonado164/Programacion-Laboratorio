@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1586833021 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase5\funcionesarray.c
+
+1586833022 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase5\main.c
+	<stdio.h>
+	"funcionesArray.h"
+
+1586833032 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase5\funcionesarray.h
+
+1586833147 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase5\ejercicio1.c
+	<stdio.h>
+
+1586833182 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase5\ejercicio2.c
+	<stdio.h>
+
