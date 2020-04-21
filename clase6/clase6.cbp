@@ -37,6 +37,9 @@
 		<Unit filename="cadenas.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="cadenasPlus.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="funcionArray.c">
 			<Option compilerVar="CC" />
 		</Unit>
