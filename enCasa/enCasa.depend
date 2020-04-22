@@ -1,5 +1,12 @@
 # depslib dependency file v1.0
-1586996414 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\encasa\main.c
+1586999972 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\encasa\main.c
 	<stdio.h>
 	<stdlib.h>
+
+1587439893 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\encasa\ejercicio1.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1587438584 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\encasa\funcionesarrays.c
 

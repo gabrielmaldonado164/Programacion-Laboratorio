@@ -31,12 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="ejercicio1.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="funcionesArrays.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="funcionesArrays.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
 		</Unit>
 		<Extensions>
 			<code_completion />

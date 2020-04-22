@@ -73,7 +73,7 @@ int SacarCantidadDeNumeros(int array[],int cantidad)
 
 int SacarSumaAcumulada(int array[], int cantidad)
 {
-    int =0;
+    int i =0;
     int sumaAcumlada=0;
 
     for(i=0;i<cantidad;i++)
@@ -96,7 +96,7 @@ int SacarValorMaximo(int array[],int cantidad)
              valorMaximo=array[i];
          }
      }
-     return valorDeRetorno;
+     return valorMaximo;
  }
 
  int sacaValorMinimo(int array[], int cantidad)
@@ -135,7 +135,7 @@ float SacarPromedio(int array[],int cantidad)
 
 int SacarNumerosPares(int array[], int cantidad)
 {
-    int =0;
+    int i=0;
     int contadorPares=0;
 
     for(i=0;i<cantidad;i++)
@@ -150,7 +150,7 @@ int SacarNumerosPares(int array[], int cantidad)
 
 int menuUsuario(char texto[],char error[], int min, int max)
 {
-    int=0;
+
     int valor;
 
         printf("%s",texto);
@@ -166,9 +166,9 @@ int menuUsuario(char texto[],char error[], int min, int max)
 }
 
 
-int BuscarLibre(array[],int cantidad, int valor)
+int buscarLibre(int array[],int cantidad, int valor)
 {
-    int=0;
+    int i=0;
     int indice=-1;//esto lo inicializo en -1 para saber si tiene algun indice vacio para cargar nota
 
     for(i=0;i<cantidad;i++)
@@ -208,9 +208,9 @@ void OrdenNumerosAscendente(int array[],int cantidad)
     int j;
     int auxiliar;
 
-    for(i=0;i<cantidad-1,i++)// PIBOTE - esto se llama for anidado, siempre es de adento hacia afuera, cantidad menos unos es pq el pibote no llega al final de la cantidad nunca
+    for(i=0;i<cantidad-1;i++)// PIBOTE - esto se llama for anidado, siempre es de adento hacia afuera, cantidad menos unos es pq el pibote no llega al final de la cantidad nunca
         {
-            for(j=i+1,j<cantidad;j++)//  COMPARACION - lo que compara siempre es +1 del pibote
+            for(j=i+1;j<cantidad;j++)//  COMPARACION - lo que compara siempre es +1 del pibote
                 {
                     if(array[i]>array[j])
                         {
@@ -228,9 +228,9 @@ void OrdenNumerosDescendente(int array[],int cantidad)
     int j;
     int auxiliar;
 
-    for(i=0;i<cantidad-1,i++)// PIBOTE - esto se llama for anidado, siempre es de adento hacia afuera, cantidad menos unos es pq el pibote no llega al final de la cantidad nunca
+    for(i=0;i<cantidad-1;i++)// PIBOTE - esto se llama for anidado, siempre es de adento hacia afuera, cantidad menos unos es pq el pibote no llega al final de la cantidad nunca
         {
-            for(j=i+1,j<cantidad;j++)//  COMPARACION - lo que compara siempre es +1 del pibote
+            for(j=i+1;j<cantidad;j++)//  COMPARACION - lo que compara siempre es +1 del pibote
                 {
                     if(array[i]<array[j])
                         {
