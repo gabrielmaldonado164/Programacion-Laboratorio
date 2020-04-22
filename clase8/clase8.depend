@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1587520983 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase8\main.c
+	<stdlib.h>
+	"alumno.h"
+
+1587520909 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase8\alumno.h
+	<stdio.h>
+
+1587520909 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase8\alumno.c
+	"alumno.h"
+
