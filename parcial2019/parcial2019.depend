@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1589150173 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\main.c
+	<stdio.h>
+	<stdlib.h>
+	"musico.h"
+
+1589148494 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\instrumento.c
+	"instrumento.h"
+
+1589148478 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\instrumento.h
+	<stdio.h>
+	<string.h>
+	"input.h"
+
+1589150126 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\musico.c
+	"musico.h"
+
+1589152192 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\musico.h
+	<stdio.h>
+	<string.h>
+	"orquesta.h"
+	"instrumento.h"
+	"input.h"
+
+1589148764 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\orquesta.c
+	"orquesta.h"
+
+1589148295 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\orquesta.h
+	<stdio.h>
+	<string.h>
+	"input.h"
+
+1588898569 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\input.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"input.h"
+
+1589164746 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcial2019\input.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1589063439 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\input.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"input.h"
+
+1589063439 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\input.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1589060207 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\nota.c
+
+1589063439 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\profesores.c
+	"profesores.h"
+
+1589063439 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\profesores.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1589063770 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\materias.c
+	"materias.h"
+
+1589063965 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\materias.h
+	<stdio.h>
+	<string.h>
+
+1589064583 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\alumno.c
+	"alumno.h"
+
+1589064335 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\alumno.h
+	<stdio.h>
+	<string.h>
+	"materias.h"
+
+1589064533 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parcialkevin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alumno.h"
+

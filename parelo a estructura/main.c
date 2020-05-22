@@ -30,6 +30,8 @@ int main()
                     modificarAlumno(alumno,tamanio);
                     break;
             case 3:
+                    bajaAlumno(alumno,tamanio);
+                    system("pause");
                 break;
             case 4:
                     mostrarAlumnos(alumno,tamanio);

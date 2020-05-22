@@ -57,7 +57,7 @@ void modificarAlumno(eAlumno listado[], int tam)
         if(listado[i].estado == OCUPADO && legajo == listado[i].legajo)
         {
               printf("Ingrese nombre: ");
-            __fpurge(stdin);
+            fflush(stdin);
             fgets(listado[i].nombre,25,stdin);
             listado[i].nombre[strlen( listado[i].nombre)-1]='\0';
             break;
@@ -75,11 +75,11 @@ eAlumno cargarUnAlumno(void)
     printf("Ingrese nota 2: ");
     scanf("%d", &miAlumno.nota2);
     printf("Ingrese nombre: ");
-    __fpurge(stdin);
+    fflush(stdin);
     fgets(miAlumno.nombre,25,stdin);
     miAlumno.nombre[strlen( miAlumno.nombre)-1]='\0';
     printf("Ingrese email: ");
-    __fpurge(stdin);
+    fflush(stdin);
     fgets(miAlumno.email,20,stdin);
     miAlumno.email[strlen( miAlumno.email)-1]='\0';
 

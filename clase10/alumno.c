@@ -325,7 +325,7 @@ int buscarIdCurso(eCurso curso,int sizeCursos)
 
     for(i=0;i<sizeCursos;i++)
     {
-        if(strcmp(nombreCurso,Curso[i].descripcion)==0)
+        if(strcmp(nombreCurso,curso[i].descripcion)==0)
         {
               indice=i,
 

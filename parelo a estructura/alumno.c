@@ -117,10 +117,11 @@ int cargarAlumno(eAlumno alumno[],int cantidad)
     else
         {
 
-            getCharString(&alumno[indiceEncontrado].nombre,"Ingrese Nombre: ","Error, debe ser un nombre:",2,50);
+            getCharString(&alumno[indiceEncontrado].nombre,"Ingrese Nombre: ","Error, debe ser un nombre:",1,50,5);
             getInt(&alumno[indiceEncontrado].legajo,"Ingrese legajo: ","Error,el indice debe de comenzar en 100",100,1000,3);//EL INDICE ENCONTRADO, es el indice que busca en la funcion de buscar libre
             getInt(&alumno[indiceEncontrado].nota1,"Ingrese primera nota:","Error, la nota debe ser de 1 a 10",1,10,4);
             getInt(&alumno[indiceEncontrado].nota2,"Ingrese segunda nota:","Error, la nota debe ser de 1 a 10",1,10,4);
+
 
             alumno[indiceEncontrado].promedio=(float)(alumno[indiceEncontrado].nota1+alumno[indiceEncontrado].nota2)/2;
 
@@ -171,7 +172,7 @@ void modificarAlumno(eAlumno alumno[], int cantidad)
                     printf("El siguiente alumno sera modificado: ");
                     mostrarAlumnos(alumno,tamanio);
 
-                    getCharOption(&respuestaModificacion,"Desea modificar los datos de este alumno S/N","ERROR, letras invalidas",'S','N',4);
+                    getOptionChar(&respuestaModificacion,"Desea modificar los datos de este alumno S/N","ERROR, letras invalidas",'S','N');
 
                     if(respuestaModificacion=='S')
                         {
@@ -181,7 +182,7 @@ void modificarAlumno(eAlumno alumno[], int cantidad)
                                 switch(menuModificacion())
                                 {
                                     case 1:
-                                            getCharString(&alumno[indice].nombre,"Ingrese el nombre","Error",2,50);
+                                            getCharString(&alumno[indice].nombre,"Ingrese el nombre","Error",1,50,5);
                                             break;
                                     case 2:
                                             getInt(&alumno[indice].legajo,"Ingrese legajo nota","Error",100,1000,4);
@@ -195,7 +196,7 @@ void modificarAlumno(eAlumno alumno[], int cantidad)
                                             break;
                                     case 5:
 
-                                        getCharOption(&confirmaSalida,"Desea salir S/N","Error, letras invalidas",'s','n',4);
+                                        getOptionChar(&confirmaSalida,"Desea salir S/N","Error, letras invalidas",'s','n');
 
                                         if(confirmaSalida=='S')
                                             {
@@ -233,7 +234,7 @@ void modificarAlumno(eAlumno alumno[], int cantidad)
 
 void bajaAlumno(eAlumno alumno[], int cantidad)
 {
-    int i;
+
     int indice=-1;
     int alumnosCargados;
     int bajaExitosa=-1;
@@ -246,21 +247,22 @@ void bajaAlumno(eAlumno alumno[], int cantidad)
 
             indice=buscarLegajo(alumno,tamanio);
 
-            if(alumno[i].isEmpty==1)
+            if(alumno[indice].isEmpty==1)
                 {
                     printf("El siguiente alumno se eliminara:\n");
                     mostrarAlumnos(alumno,tamanio);
 
-                    getCharOption(&seguir,"Desea continuar S/N","Error",'s','n',4);
+                   getOptionChar(&seguir,"Desea continuar S/N","Error",'s','n');
 
-                    if(seguir=='s')
+                    if(seguir=='S')
                         {
-                            alumno[i].isEmpty=-1;
+                            alumno[indice].isEmpty=-1;
                             printf("Se elimino correctamente");
                             bajaExitosa=1;
 
                         }else
                         {
+
                             printf("Volviendo al menu");
                         }
 

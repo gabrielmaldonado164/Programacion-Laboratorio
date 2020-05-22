@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1588719981 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase11\main.c
+	<stdio.h>
+	<string.h>
+	"producto-proveedor.h"
+
+1588719793 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase11\producto-proveedor.h
+	"producto.h"
+	"proveedor.h"
+	<string.h>
+
+1588647367 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase11\producto.h
+	<stdio.h>
+	<string.h>
+
+1588647367 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase11\proveedor.h
+	<stdio.h>
+	<string.h>
+
+1588649471 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase11\producto-proveedor.c
+	"producto-proveedor.h"
+
+1588648829 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase11\producto.c
+	"producto.h"
+
+1588649500 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\clase11\proveedor.c
+	"proveedor.h"
+

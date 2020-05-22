@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1587917621 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parelo a estructura\alumno.c
+1588526903 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parelo a estructura\alumno.c
 	"alumno.h"
 	"input.h"
 	"string.h"
 	"stdio.h"
 
-1587917072 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parelo a estructura\main.c
+1588525878 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parelo a estructura\main.c
 	<stdlib.h>
 	"alumno.h"
 
@@ -20,11 +20,15 @@
 	<stdlib.h>
 	<string.h>
 
-1587768875 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parelo a estructura\input.h
+1588525379 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parelo a estructura\input.h
 	<stdio.h>
-
-1587917732 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parelo a estructura\input.c
-	<stdlib.h>
 	<string.h>
+	<ctype.h>
+
+1588525373 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\parelo a estructura\input.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
 	"input.h"
 

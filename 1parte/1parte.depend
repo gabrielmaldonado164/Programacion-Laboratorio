@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1589243799 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\1parte\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clientes-mascota.h"
+
+1589239654 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\1parte\clientes.h
+	<stdio.h>
+	<string.h>
+
+1589243842 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\1parte\mascotas.c
+	"mascota.h"
+
+1589241062 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\1parte\mascota.h
+	<stdio.h>
+	<string.h>
+
+1589240763 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\1parte\cliente.c
+	"clientes.h"
+
+1589242717 source:c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\1parte\cliente-mascota.c
+	"clientes-mascota.h"
+
+1589242439 c:\users\gabri\onedrive\escritorio\facultad\programacion-laboratorio\1parte\clientes-mascota.h
+	<stdio.h>
+	<string.h>
+	"clientes.h"
+	"mascota.h"
+
